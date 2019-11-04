@@ -38,7 +38,7 @@ document.addEventListener('scroll', (event) => {
         var currRef = document.getElementById(lnks[i].hash.replace('#', ''));
         if (currRef != null) {
             if (currRef.offsetTop <= currScrolTopPos &&
-                currRef.offsetTop + currRef.getBoundingClientRect().height > (currScrolTopPos + 300)) {
+                currRef.offsetTop + currRef.getBoundingClientRect().height > (currScrolTopPos + 10)) {
 
                 for (ii = 0; ii < lnks.length; ii++) {
                     lnks[ii].className = lnks[ii].className.replace(' active', '');
