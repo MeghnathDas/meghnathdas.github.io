@@ -82,9 +82,6 @@ ul {
 .va-m {
   vertical-align: middle;
 }
-.svg-icon {
-  opacity: 0.55;
-}
 .svg-icon :hover {
   filter: invert(100%);
 }
@@ -221,6 +218,7 @@ section {
 
 .dev-icons {
   font-size: 3rem;
+  color: #404444;
 }
 
 .list-inline-item i:hover {
