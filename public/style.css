@@ -195,6 +195,22 @@ section {
   font-size: 1.5rem;
 }
 
+.links-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.button-style-link {
+  padding: 12px;
+  background-color: rgb(61, 64, 77);
+  margin-left: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 2%;
+}
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
