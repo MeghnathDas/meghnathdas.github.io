@@ -210,6 +210,23 @@ section {
   color: white;
   margin-left: 1rem;
 }
+.resume-download-button:link {
+  color: white;
+}
+
+.resume-download-button:visited {
+  color: white;
+}
+
+.resume-download-button:hover {
+  background-color:#b73434;
+  color: white;
+}
+
+.resume-download-button:active {
+  color: white;
+} 
+
 .button-style-link {
   padding: 15px;
   margin-top: 0;
