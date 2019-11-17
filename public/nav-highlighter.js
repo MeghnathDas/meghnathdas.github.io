@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.addEventListener('scroll', (event) => {
-    var currScrolTopPos = document.documentElement.scrollTop;
+    var currScrolTopPos = document.documentElement.scrollTop + 300;
     var lnks = document.getElementsByClassName('nav-link');
 
     for (i = 0; i < lnks.length; i++) {
